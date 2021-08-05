@@ -1,4 +1,5 @@
 import developmentConfigs from './env/development.json';
+import productionConfigs from './env/production.json';
 
 /**
  * Load the environment configuration with specific environment such as production
@@ -8,6 +9,8 @@ class Config {
     // Load the environment configuration
     if (process.env.NODE_ENV === 'development') {
       this.config = developmentConfigs;
+    } else if (process.env.NODE_ENV === 'production') {
+      this.config = productionConfigs;
     }
   }
 
