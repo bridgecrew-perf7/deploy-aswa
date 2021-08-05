@@ -6,6 +6,7 @@ import productionConfigs from './env/production.json';
  */
 class Config {
   constructor() {
+    console.log(process.env.NODE_ENV)
     // Load the environment configuration
     if (process.env.NODE_ENV === 'development') {
       this.config = developmentConfigs;
