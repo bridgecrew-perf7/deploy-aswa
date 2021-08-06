@@ -3,10 +3,6 @@
       {
         "route": "/todo",
         "rewrite": "/todo"
-      },
-      {
-        "route": "/todo",
-        "redirect": "/todo"
       }
     ],
     "navigationFallback": {
