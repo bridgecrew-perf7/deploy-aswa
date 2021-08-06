@@ -1,8 +1,8 @@
 {
     "routes": [
       {
-        "route": "/todo",
-        "rewrite": "/todo"
+        "route": "/todos",
+        "rewrite": "/todos"
       }
     ],
     "navigationFallback": {
